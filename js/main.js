@@ -10,8 +10,7 @@ let pages = [];
 
 function init() {
 
-	// Navigation part
-	// find all the pages
+	
     pages = document.querySelectorAll(".page");
     console.log(pages);
 
@@ -25,7 +24,7 @@ function init() {
         pages[1].classList.toggle("active");
     });
 
-	//Fetch part
+	
 
     document.getElementById("btnSend").addEventListener("click", getData);
 }
