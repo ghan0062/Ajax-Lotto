@@ -29,7 +29,7 @@ function init() {
     document.getElementById("btnSend").addEventListener("click", getData);
 }
 
-//FETCH part
+
 function getData() {
 	
     let digs = document.getElementById("digits").value;
